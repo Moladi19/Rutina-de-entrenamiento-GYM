@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <title>Rutina entrenamiento</title>
+</head>
+
+<body>
+  <header>
+  <h1 title="Titulo de la pagina web">Rutina De Entrenamiento GYM</h1>
+  </header>
+  </div>
+  <!-- configuracion de las imagenes de la web -->
+   <h2 id="Galeria"></h2>
+  <img id="primera-foto" class="rutinagym" src="img/rutina gym.jpg" alt="rutina para ti" />
+  <img class="sentadilla ejercicio" src="img/Sentadilla.jpg" alt="haciendo sentadilla" />
+  <img class="estiramientos ejercicio" src="img/estiramientos.jpg" alt="realizando estiramientos" />
+  <img class="prensa ejercicio" src="img/prensa.jpg" alt="dia de pierna" />
+
+  <!-- Creación del boton para el menu desplegable con sus diferentes opciones, el enlace no funciona asique esta configurado para que 
+     cuando le pinches te salga ua alerta diciendo que no funciona -->
+
+  <input type="button" id="menubtn" value="Menu">
+  <div id="menudesplegable" class="oculto">
+    <a href="#Galeria">Galeria de fotos</a>
+    <a href="#Calculadora-imc">Calculadora imc</a>
+    <a href="#formulario">Formulario contacto</a>
+  </div>
+  <hr>
+  </hr>
+
+  <!-- Calculadora para saber el indice  de masa corporal que tienes -->
+  <div id="Calculadora-imc">
+    <h2>Calculadora IMC</h2>
+    <input id="altura" type="number" placeholder="altura" step="0.01" />
+    <input id="peso" type="number" placeholder="peso" />
+    <button id="Calcular-total" type="submit">Calcular total</button>
+    <p id="resultado"></p>
+  </div>
+  <hr>
+  </hr>
+
+  <!-- Formulario para rellenar -->
+  <form id="formulario">
+    <h2>Registro</h2>
+    <input id="nombre" type="text" placeholder="nombre" minlength="3" maxlength="20" />
+    <input id="email" type="email" placeholder="email" />
+    <button id="Enviar" type="submit">Enviar</button>
+  </form>
+  <hr>
+  </hr>
+  <script src="script.js"></script>
+  <footer>
+    <p> Izam Molano Diaz</p>
+    <p> 1 DAW</p>
+  </footer>
+</body>
+
+</html>

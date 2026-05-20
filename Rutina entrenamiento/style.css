@@ -1,0 +1,168 @@
+body {
+    position: relative;
+    background-color:#1c1c1c;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Este es el titulo de la página*/
+
+header {
+    color: #000000;
+    background-color: #5762D5;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+h1 {
+text-align: center; 
+font-family: Arial Black; 
+font-weight: bold; 
+font-size: 30px; 
+color: #fff; 
+text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+/* Esta es la imagen principal*/
+.rutinagym {
+    display: block;
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.sentadilla {
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+}
+
+.estiramientos {
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+}
+
+.prensa {
+    display: inline-block;
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+}
+
+/* Este es el menú desplegable, para que los enlaces estén debajo del botón*/
+#menudesplegable {
+    position: absolute;
+    top: 100px;
+    right: 20px;
+}
+
+/* Este es el botón que cuando le das despliega las opciones, está configurado para estar arriba a la derecha*/
+#menubtn {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    width: 350px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color:#ffffff;
+    border: 2px solid rgb(0, 0, 0);
+}
+a {
+    color: #fafafaf1;
+}
+/* Estos son los titulos de la calculadora y el formulario*/
+h2 {
+    color: #000000;
+    text-align: center;
+}
+
+/* Esta es la calculadora imc*/
+#Calculadora-imc {
+    width: 500px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 35px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+
+    /* Para los campos de texto y el boton*/ 
+
+#altura {
+text-align: center;
+width: 90%;
+margin: 10px;
+border-radius: 5px;
+}
+#peso {
+text-align: center;
+width: 90%;
+margin: 10px;
+border-radius: 5px;
+}
+#Calcular-total {
+text-align: center;
+width: 30%;
+margin: 10px;
+border-radius: 5px;
+}
+/* Este es el formulario de contacto*/
+#formulario {
+    width: 500px;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 35px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+
+/* Para los campos de texto y el boton*/ 
+#nombre {
+text-align: center;
+width: 90%;
+margin: 10px;
+border-radius: 5px;
+}
+#email {
+text-align: center;
+width: 90%;
+margin: 10px;
+border-radius: 5px;
+}
+#Enviar {
+text-align: center;
+width: 30%;
+margin: 10px;
+border-radius: 5px;
+}
+
+/* Esto es para ocultar el menú*/
+.oculto {
+    display: none;
+}
+
+/* Esto es para poder clicar en las imágenes*/
+img {
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+    border: 4px solid rgb(255, 255, 255);
+}
+
+/*Pie de pagina*/
+
+footer {
+    background-color: #5762D5;
+    padding: 25px 10px;
+    border-top: 2px solid rgb(0, 0, 0);
+}
+
+p {
+    color: #FFFFFF;
+}
